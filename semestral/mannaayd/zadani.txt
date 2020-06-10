@@ -1,0 +1,16 @@
+﻿Ant wars
+Jendoducha hra války několika mravenčích klanů. Mravenci se rodí v mraveništích a lze jim zadat cíl - jiné mraveniště.
+Na cizí mraveniště mravenci útočí, vlastní opevňují.
+Pri implementaci vyuzil jsem knihovnu SDL2.
+Engine:
+1.	ze souboru nahraje mapu s lokacemi mraveništ a překážek
+2.	implementuje triviální interakci mravenec vs. mravenec (např. jeden zabije jednoho)
+3.	implementuje jednoduchou škálovanou AI řídící organizaci klanů mravenců
+4.	umožňuje ukládat a načítat rozehrané hry
+Engine funguje jako real-time hra.
+Jak vypada mapa pro nahrani
+•	"g" - prázdné místa pro pohyb mravenců
+•	"r", "b", "y" - označují mraveniště s počtem 30 mravenců
+•	"v" - oznacuje vodu
+•	"w" - oznacuje zed
+•	"e" – oznacuje prazdne mraveniště
